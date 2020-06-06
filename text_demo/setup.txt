@@ -1,0 +1,17 @@
+Wymagania:
+Python 3.6/3.7
+
+W przypadku braku Pythona:
+1. Pobierz instalator dla swojego systemu operacyjnego: 
+	https://docs.conda.io/en/latest/miniconda.html
+2. Zainstaluj
+3. W terminalu (anaconda prompt na windowsie) wykonaj komendę:
+	conda install pandas scikit-learn numpy jupyter notebook nltk
+
+
+W przypadku posiadania Pythona:
+- jeśli Python pochodzi z dystrybucji anaconda/miniconda - wykonaj komendę w celu zainstalowania pakietów:
+	conda install pandas scikit-learn numpy jupyter notebook nltk
+
+- jeśli Python pochodzi z innych dystrybucji - wykonaj komendę w celu zainstalowania pakietów:
+	pip install pandas scikit-learn numpy jupyter notebook nltk
